@@ -101,7 +101,7 @@ sub start
             #
             # Allow simple wildcards in exclude list by specifying "r" option.
             #
-            $X_option = "rX";
+            $X_option = "X";
         }
         if ( $t->{type} eq "full" ) {
             $smbClientCmd = $conf->{SmbClientFullCmd};
